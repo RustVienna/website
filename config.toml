@@ -11,5 +11,16 @@ highlight_code = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
+theme = "hyde"
+
+title = "Rust Vienna"
+
 [extra]
 # Put all your custom variables here
+hyde_theme = "theme-base-09"
+hyde_reverse = true
+hyde_sticky = false
+hyde_links = [
+    {url = "/meetups", name = "meetups"},
+    {url = "https://rustmeetupvienna.typeform.com/to/KrCbh1", name = "give a talk"},
+]
